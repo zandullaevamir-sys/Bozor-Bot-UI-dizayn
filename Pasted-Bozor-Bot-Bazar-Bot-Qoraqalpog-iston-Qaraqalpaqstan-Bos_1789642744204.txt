@@ -1,0 +1,177 @@
+Bozor Bot — Bazar Bot
+
+Qoraqalpog‘iston — Qaraqalpaqstan
+
+Bosh sahifa — Bas bet
+
+Qidiruv — Izlew
+
+Joylash / Joylashtirish — Jaylastırıw
+
+Xizmatlar — Xizmetler
+
+Akaunt — Akkaunt (Profil)
+
+E’lon berish — Jariya beriw
+
+Saqlash — Saqlaw
+
+Reklama — Reklama
+
+Premium joylashuv — Premium jaylastırıw
+
+O‘z mahsulotingizni shu yerda reklama qiling. — Óz ónimińizdi usı jerde reklama qılıń.
+
+Hamkorlik — Sheriklik
+
+Biznesingizni taniting — Biznesińizdi tanıstırıń
+
+Qoraqalpog‘iston bo‘ylab yangi mijozlarga chiqing. — Qaraqalpaqstan boyınsha top dárejege shıǵıń.
+
+Taklif — Usınıs
+
+Haftalik reklama — Haptelik reklama
+
+Brendingiz bosh sahifada doimiy ko‘rinib tursin. — Brendińiz bas bette turaqlı kórinip tursın.
+
+Batafsil — Tolıq maǵlıwmat
+
+Yangi mahsulotlar — Jańa ónimler
+
+Hammasini ko‘rish — Hámmesin kóriw
+
+Barcha mahsulotlar — Barlıq ónimler
+
+Eng yangi e’lonlar — Eń jańa jariyalar
+
+E’lonlarni yuklab bo‘lmadi — Jariyalardı júklep bolmadı
+
+Keyinroq qayta urinib ko‘ring. — Keyinirek qayta urınıp kóriń.
+
+Mahsulotlar yo‘q — Ónimler joq
+
+Hozircha mahsulot e’lonlari joylanmagan. — Házirshe ónim jariyaları jaylastırılmaǵan.
+
+Barcha xizmatlar — Barlıq xizmetler
+
+Xizmat e’lonlari — Xizmet jariyaları
+
+Xizmatlar yo‘q — Xizmetler joq
+
+Nima joylashtirmoqchisiz? — Neni jaylastırmaqshısız?
+
+Kerakli bo‘limni tanlang. — Kerekli bólimdi tańlań.
+
+Mahsulot yoki xizmatni qidiring. — Ónim yamasa xizmetti izleń.
+
+Nima qidiryapsiz? — Neni izlepatırsız?
+
+Qidirish — Izlew
+
+Barchasi — Hámmesi
+
+Tuman yoki shahar — Rayon yamasa qala
+
+Barcha hududlar — Barlıq aymaqlar
+
+Kategoriya — Kategoriya
+
+Barcha kategoriyalar — Barlıq kategoriyalar
+
+Holati — Jaǵdayı
+
+Tozalash — Tazalaw
+
+E’lon tafsilotlari — Jariya maǵlıwmatları
+
+E’lon topilmadi — Jariya tabılmadı
+
+Bu e’lon o‘chirilgan yoki mavjud emas. — Bul jariya óshirilgen yamasa ámelde joq.
+
+E’lonlarga qaytish — Jariyalarǵa qaytıw
+
+Kelishiladi — Kelisilinedi
+
+so‘m — swm
+
+E’lon muallifi — Jariya avtorı
+
+Qo‘ng‘iroq qilish — Qońıraw etiw
+
+Aloqa — Baylanıs
+
+Sotuvchi bilan bog‘lanish uchun telefon raqami ko‘rsatildi. — Satıwshı menen baylanısıw ushın telefon nomeri kórsetildi.
+
+Sarlavha — Ataması (Sarlavha)
+
+Rasm — Súwret
+
+Rasm tanlash — Súwret tańlaw
+
+E’lon turi — Jariya túri
+
+Narx (so‘m) — Baha (swm)
+
+Kelishiladi bo‘lsa bo‘sh qoldiring — Kelisilinedi bolsa bos qaldırıń
+
+Ismingiz — Atıńız
+
+Telefon raqami — Telefon nomeri
+
+Tavsif — Bayanat (Tavsif)
+
+E’lonni joylash — Jariyalaw
+
+Ustalar katalogi — Ustalar katalogı
+
+Mening e’lonlarim — Mening jariyalarım
+
+Saqlanganlar — Saqlanǵanlar
+
+Suhbatlar — Súwbetler
+
+Sharhlar — Pikirler (Sharhlar)
+
+Admin panel — Admin panel
+
+Jonli statistika — Janli statistika
+
+Foydalanuvchilar — Paydalanıwshılar
+
+Hududlar — Aymaqlar
+
+Bugun — Búgin
+
+Nukus shahri — Nókis qalası
+
+Nukus tumani — Nókis rayonı
+
+Amudaryo tumani — Ámiwdárya rayonı
+
+Beruniy tumani — Beruniy rayonı
+
+Bo‘zatov tumani — Bozataw rayonı
+
+Chimboy tumani — Shımbay rayonı
+
+Ellikqal’a tumani — Ellikqala rayonı
+
+Kegeyli tumani — Kegeyli rayonı
+
+Mo‘ynoq tumani — Moynaq rayonı
+
+Qanliko‘l tumani — Qanlıkól rayonı
+
+Qorao‘zak tumani — Qaraózek rayonı
+
+Qo‘ng‘irot tumani — Qońırat rayonı
+
+Shumanay tumani — Shomanay rayonı
+
+Taxtako‘pir tumani — Taxtakópir rayonı
+
+Taxiatosh shahri — Taqıyatas qalası
+
+To‘rtko‘l tumani — Tórtkúl rayonı
+
+Xo‘jayli tumani — Xojeli rayonı
