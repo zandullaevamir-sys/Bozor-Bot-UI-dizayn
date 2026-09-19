@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bozor Bot | Savatcha</title>
+    <meta name="description" content="Bozor Bot savatchasi" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar compact">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">B</div>
+          <div>
+            <div class="brand-name">Bozor Bot</div>
+          </div>
+        </a>
+        <a href="products.html" class="secondary-btn">Ko‘rish</a>
+      </header>
+
+      <section class="section-block">
+        <div class="section-head">
+          <h2>Savatcha</h2>
+          <span class="subtle">3 ta mahsulot</span>
+        </div>
+
+        <div class="cart-list" id="cartList"></div>
+      </section>
+
+      <section class="summary-card">
+        <div class="summary-row">
+          <span>Mahsulotlar summasi</span>
+          <strong id="subtotal">$0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Yetkazib berish</span>
+          <strong>$12</strong>
+        </div>
+        <div class="summary-row total">
+          <span>Umumiy</span>
+          <strong id="total">$0</strong>
+        </div>
+        <button class="primary-btn wide">Buyurtmani rasmiylashtirish</button>
+      </section>
+    </div>
+
+    <nav class="bottom-nav" aria-label="Asosiy navigatsiya">
+      <a class="nav-item" href="index.html">
+        <span class="nav-ico">⌂</span>
+        <span>Home</span>
+      </a>
+      <a class="nav-item" href="products.html">
+        <span class="nav-ico">◫</span>
+        <span>Mahsulot</span>
+      </a>
+      <a class="nav-item active" href="cart.html">
+        <span class="nav-ico">🛒</span>
+        <span>Savatcha</span>
+      </a>
+      <a class="nav-item" href="admin.html">
+        <span class="nav-ico">☰</span>
+        <span>Menyu</span>
+      </a>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>

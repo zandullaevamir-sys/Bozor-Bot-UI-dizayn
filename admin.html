@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bozor Bot | Admin panel</title>
+    <meta name="description" content="Bozor Bot admin paneli" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar compact">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">B</div>
+          <div>
+            <div class="brand-name">Bozor Bot</div>
+          </div>
+        </a>
+        <span class="mini-badge dark">Admin</span>
+      </header>
+
+      <section class="admin-panel">
+        <div class="admin-header">
+          <div>
+            <div class="eyebrow">Admin panel</div>
+            <h1>Umumiy ko‘rsatkichlar</h1>
+          </div>
+        </div>
+
+        <div class="stats-grid small">
+          <article class="stat-card">
+            <div class="stat-label">Active users</div>
+            <div class="stat-value">3.8K</div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-label">Orders</div>
+            <div class="stat-value">1.2K</div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-label">Sales</div>
+            <div class="stat-value">$12.4K</div>
+          </article>
+        </div>
+
+        <div class="admin-table">
+          <div class="table-row heading">
+            <span>Foydalanuvchi</span>
+            <span>Status</span>
+          </div>
+          <div class="table-row">
+            <span>Aziza Shop</span>
+            <span class="status-tag success">Faol</span>
+          </div>
+          <div class="table-row">
+            <span>Best Market</span>
+            <span class="status-tag primary">Tekshirilmoqda</span>
+          </div>
+          <div class="table-row">
+            <span>Green Box</span>
+            <span class="status-tag warning">Kutilmoqda</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <nav class="bottom-nav" aria-label="Asosiy navigatsiya">
+      <a class="nav-item" href="index.html">
+        <span class="nav-ico">⌂</span>
+        <span>Home</span>
+      </a>
+      <a class="nav-item" href="products.html">
+        <span class="nav-ico">◫</span>
+        <span>Mahsulot</span>
+      </a>
+      <a class="nav-item" href="cart.html">
+        <span class="nav-ico">🛒</span>
+        <span>Savatcha</span>
+      </a>
+      <a class="nav-item active" href="admin.html">
+        <span class="nav-ico">☰</span>
+        <span>Menyu</span>
+      </a>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
