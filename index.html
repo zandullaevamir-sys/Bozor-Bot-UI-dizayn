@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Bozor Bot</title>
-    <meta name="description" content="Bozor Bot — Telegram mini app dashboard" />
+    <meta name="description" content="Bozor Bot — Telegram mini app for market and orders" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="Bozor Bot" />
-    <meta property="og:description" content="Bozor Bot — Telegram mini app dashboard" />
+    <meta property="og:description" content="Bozor Bot — Telegram mini app for market and orders" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bozor Bot" />
-    <meta name="twitter:description" content="Bozor Bot — Telegram mini app dashboard" />
+    <meta name="twitter:description" content="Bozor Bot — Telegram mini app for market and orders" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +20,6 @@
       :root {
         --bg: #f4f7fb;
         --panel: #ffffff;
-        --panel-strong: #111827;
         --panel-soft: #f8fafc;
         --text: #111827;
         --muted: #6b7280;
@@ -31,7 +30,6 @@
         --warning: #f59e0b;
         --danger: #ef4444;
         --shadow: 0 16px 30px rgba(15, 23, 42, 0.08);
-        --radius: 22px;
       }
 
       * { box-sizing: border-box; }
@@ -47,20 +45,18 @@
       body {
         display: flex;
         justify-content: center;
-        padding: 20px 14px 100px;
+        padding: 18px 14px 90px;
       }
 
       .app-shell {
         width: min(100%, 430px);
-        min-height: 100vh;
-        position: relative;
       }
 
       .topbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 4px 16px;
+        margin-bottom: 16px;
       }
 
       .brand {
@@ -79,33 +75,31 @@
         place-items: center;
         background: linear-gradient(135deg, var(--primary), #60a5fa);
         color: white;
-        box-shadow: 0 10px 20px rgba(37, 99, 235, 0.28);
-        font-size: 18px;
+        box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
       }
 
-      .mini-tag {
+      .chip {
         padding: 8px 10px;
         border-radius: 999px;
         background: var(--panel);
         border: 1px solid var(--line);
-        box-shadow: 0 8px 18px rgba(15, 23, 42, 0.03);
         font-size: 11px;
         color: var(--muted);
-        font-weight: 600;
+        font-weight: 700;
       }
 
       .hero {
         background: linear-gradient(160deg, #0f172a 0%, #1f3a8a 100%);
         color: white;
         border-radius: 30px;
-        padding: 24px 22px 18px;
+        padding: 22px 20px 18px;
         box-shadow: var(--shadow);
       }
 
       .hero-top {
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
         margin-bottom: 18px;
       }
 
@@ -115,9 +109,9 @@
         gap: 8px;
         padding: 8px 12px;
         border-radius: 999px;
-        background: rgba(255,255,255,0.14);
+        background: rgba(255,255,255,0.12);
         font-size: 11px;
-        font-weight: 600;
+        font-weight: 700;
       }
 
       .dot {
@@ -125,7 +119,7 @@
         height: 8px;
         border-radius: 50%;
         background: #34d399;
-        box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.18);
+        box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.15);
       }
 
       .hero h1 {
@@ -137,14 +131,15 @@
 
       .hero-sub {
         margin-top: 10px;
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255,255,255,0.82);
         font-size: 14px;
+        line-height: 1.5;
       }
 
       .cta-row {
         display: flex;
         gap: 10px;
-        margin-top: 22px;
+        margin-top: 20px;
       }
 
       .btn {
@@ -153,12 +148,9 @@
         border-radius: 14px;
         padding: 13px 14px;
         font: inherit;
-        font-weight: 700;
+        font-weight: 800;
         cursor: pointer;
-        transition: transform 0.15s ease, opacity 0.15s ease;
       }
-
-      .btn:active { transform: translateY(1px) scale(0.99); }
 
       .btn-primary {
         background: white;
@@ -166,9 +158,9 @@
       }
 
       .btn-ghost {
-        background: rgba(255,255,255,0.1);
+        background: rgba(255,255,255,0.08);
         color: white;
-        border: 1px solid rgba(255,255,255,0.15);
+        border: 1px solid rgba(255,255,255,0.18);
       }
 
       .stats {
@@ -285,13 +277,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 10px;
         padding: 12px 0;
         border-bottom: 1px solid var(--line);
       }
 
-      .order-item:last-child {
-        border-bottom: none;
-      }
+      .order-item:last-child { border-bottom: none; }
 
       .order-left {
         display: flex;
@@ -305,8 +296,8 @@
         border-radius: 12px;
         display: grid;
         place-items: center;
-        font-size: 18px;
         background: var(--panel-soft);
+        font-size: 18px;
       }
 
       .order-meta strong {
@@ -348,7 +339,7 @@
         bottom: 12px;
         width: min(calc(100vw - 22px), 410px);
         background: rgba(255,255,255,0.9);
-        backdrop-filter: blur(14px);
+        backdrop-filter: blur(12px);
         border: 1px solid var(--line);
         border-radius: 22px;
         padding: 10px 12px;
@@ -390,13 +381,13 @@
           <div class="brand-mark">B</div>
           <span>Bozor Bot</span>
         </div>
-        <div class="mini-tag" id="user-tag">onlayn</div>
+        <div class="chip" id="user-tag">onlayn</div>
       </header>
 
       <section class="hero">
         <div class="hero-top">
           <div class="status"><span class="dot"></span> ishlayapti</div>
-          <span class="mini-tag" style="background: rgba(255,255,255,0.08); color:white; border-color: rgba(255,255,255,0.12);">24/7</span>
+          <span class="chip" style="background: rgba(255,255,255,0.08); color: white; border-color: rgba(255,255,255,0.15);">24/7</span>
         </div>
 
         <h1 id="hello-text">Salom,<br />bozorchi!</h1>
