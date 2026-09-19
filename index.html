@@ -390,7 +390,7 @@
           <div class="brand-mark">B</div>
           <span>Bozor Bot</span>
         </div>
-        <div class="mini-tag" id="user-tag">online</div>
+        <div class="mini-tag" id="user-tag">onlayn</div>
       </header>
 
       <section class="hero">
@@ -501,9 +501,9 @@
 
     <nav class="bottom-nav" aria-label="Bottom navigation">
       <div class="nav-item active"><strong>⌂</strong>Home</div>
-      <div class="nav-item"><strong>◫</strong>Orders</div>
-      <div class="nav-item"><strong>◎</strong>Stats</div>
-      <div class="nav-item"><strong>☰</strong>Menu</div>
+      <div class="nav-item"><strong>◫</strong>Buyurtmalar</div>
+      <div class="nav-item"><strong>◎</strong>Statistika</div>
+      <div class="nav-item"><strong>☰</strong>Menyu</div>
     </nav>
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -526,7 +526,7 @@
 
         const userTag = document.getElementById('user-tag');
         if (userTag) {
-          userTag.textContent = user && user.username ? '@' + user.username : 'online';
+          userTag.textContent = user && user.username ? '@' + user.username : 'onlayn';
         }
 
         if (tg.themeParams) {
